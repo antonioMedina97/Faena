@@ -1,0 +1,13 @@
+@Faena.Api_HostAddress = http://localhost:5111
+
+POST {{Faena.Api_HostAddress}}/Flights
+Content-Type: application/json
+
+{
+  "departureLocation": "cordoba",
+  "arrivalLocation": "Viena",
+  "departureDate": "08/26/2024 15:03:44",
+  "arrivalDate": "08/26/2024 17:03:44"
+}
+
+
