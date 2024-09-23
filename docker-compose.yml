@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  faena.api:
+    image: ${DOCKER_REGISTRY-}faenaapi
+    build:
+      context: .
+      dockerfile: Faena.Api/Dockerfile
