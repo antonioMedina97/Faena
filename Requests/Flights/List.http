@@ -1,6 +1,6 @@
-@Faena.Api_HostAddress = http://localhost:5111
+@Faena.Api_HostAddress = http://localhost:5001
 
-GET {{Faena.Api_HostAddress}}/Flights
+GET http://localhost:5001/Flights
 Accept: application/json
 
 
